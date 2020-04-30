@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B2EB068230AAB1B00899267 /* WinAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2EB067230AAB1B00899267 /* WinAlertViewController.swift */; };
+		7B483F05235F08F7004FE062 /* CustomCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B483F04235F08F7004FE062 /* CustomCode.swift */; };
+		7B483F07235F0919004FE062 /* CustomExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B483F06235F0919004FE062 /* CustomExtension.swift */; };
+		7B6A3DA8230D17B90041100B /* Blackjack Video Game Sounds-[AudioTrimmer.com].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7B6A3DA7230D17B90041100B /* Blackjack Video Game Sounds-[AudioTrimmer.com].mp3 */; };
+		7B6A3DAC230D1F3D0041100B /* MusicPlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6A3DAB230D1F3D0041100B /* MusicPlay.swift */; };
+		7BA3128F230688F5002A5B79 /* ShuffledAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA3128E230688F5002A5B79 /* ShuffledAlertViewController.swift */; };
+		7BA312912306896E002A5B79 /* StandAndHitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA312902306896E002A5B79 /* StandAndHitViewController.swift */; };
+		7BA3129423069860002A5B79 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA3129323069860002A5B79 /* AboutViewController.swift */; };
+		7BA312962306A260002A5B79 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA312952306A260002A5B79 /* Card.swift */; };
+		7BFAFDAD23059C0400753134 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFAFDAC23059C0400753134 /* AppDelegate.swift */; };
+		7BFAFDAF23059C0400753134 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFAFDAE23059C0400753134 /* MainViewController.swift */; };
+		7BFAFDB223059C0400753134 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BFAFDB023059C0400753134 /* Main.storyboard */; };
+		7BFAFDB423059C0600753134 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BFAFDB323059C0600753134 /* Assets.xcassets */; };
+		7BFAFDB723059C0600753134 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BFAFDB523059C0600753134 /* LaunchScreen.storyboard */; };
+		7BFAFDC223059C0600753134 /* Black_Jack_SagaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFAFDC123059C0600753134 /* Black_Jack_SagaTests.swift */; };
+		7BFAFDCD23059C0600753134 /* Black_Jack_SagaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFAFDCC23059C0600753134 /* Black_Jack_SagaUITests.swift */; };
+		7BFE6ECD230BAC5500A05DD0 /* playing-cards-170817-08.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7BFE6ECC230BAC5500A05DD0 /* playing-cards-170817-08.mp3 */; };
+		7BFE6ECF230BAEE800A05DD0 /* little_robot_sound_factory_Jingle_Win_Synth_06.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7BFE6ECE230BAEE800A05DD0 /* little_robot_sound_factory_Jingle_Win_Synth_06.mp3 */; };
+		7BFE6ED1230BB00900A05DD0 /* zapsplat_multimedia_game_retro_musical_descend_fail_negative_21484.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7BFE6ED0230BB00900A05DD0 /* zapsplat_multimedia_game_retro_musical_descend_fail_negative_21484.mp3 */; };
+		7BFE6ED4230BB2D200A05DD0 /* StandAndHitViewExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFE6ED3230BB2D200A05DD0 /* StandAndHitViewExtentions.swift */; };
+		7BFE6ED6230BBC7300A05DD0 /* zapsplat_vehicles_bicycle_bell_single_ring_ping_29516.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7BFE6ED5230BBC7300A05DD0 /* zapsplat_vehicles_bicycle_bell_single_ring_ping_29516.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7BFAFDBE23059C0600753134 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BFAFDA123059C0400753134 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BFAFDA823059C0400753134;
+			remoteInfo = "Black Jack Saga";
+		};
+		7BFAFDC923059C0600753134 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BFAFDA123059C0400753134 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BFAFDA823059C0400753134;
+			remoteInfo = "Black Jack Saga";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B2EB067230AAB1B00899267 /* WinAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinAlertViewController.swift; sourceTree = "<group>"; };
+		7B483F04235F08F7004FE062 /* CustomCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCode.swift; sourceTree = "<group>"; };
+		7B483F06235F0919004FE062 /* CustomExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomExtension.swift; sourceTree = "<group>"; };
+		7B6A3DA7230D17B90041100B /* Blackjack Video Game Sounds-[AudioTrimmer.com].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Blackjack Video Game Sounds-[AudioTrimmer.com].mp3"; sourceTree = "<group>"; };
+		7B6A3DAB230D1F3D0041100B /* MusicPlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlay.swift; sourceTree = "<group>"; };
+		7BA3128E230688F5002A5B79 /* ShuffledAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuffledAlertViewController.swift; sourceTree = "<group>"; };
+		7BA312902306896E002A5B79 /* StandAndHitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandAndHitViewController.swift; sourceTree = "<group>"; };
+		7BA3129323069860002A5B79 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		7BA312952306A260002A5B79 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		7BFAFDA923059C0400753134 /* Win Black Jack Saga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Win Black Jack Saga.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BFAFDAC23059C0400753134 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7BFAFDAE23059C0400753134 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		7BFAFDB123059C0400753134 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7BFAFDB323059C0600753134 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BFAFDB623059C0600753134 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7BFAFDB823059C0600753134 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BFAFDBD23059C0600753134 /* Win Black Jack SagaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Win Black Jack SagaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BFAFDC123059C0600753134 /* Black_Jack_SagaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Black_Jack_SagaTests.swift; sourceTree = "<group>"; };
+		7BFAFDC323059C0600753134 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BFAFDC823059C0600753134 /* Win Black Jack SagaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Win Black Jack SagaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BFAFDCC23059C0600753134 /* Black_Jack_SagaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Black_Jack_SagaUITests.swift; sourceTree = "<group>"; };
+		7BFAFDCE23059C0600753134 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BFE6ECC230BAC5500A05DD0 /* playing-cards-170817-08.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "playing-cards-170817-08.mp3"; sourceTree = "<group>"; };
+		7BFE6ECE230BAEE800A05DD0 /* little_robot_sound_factory_Jingle_Win_Synth_06.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = little_robot_sound_factory_Jingle_Win_Synth_06.mp3; sourceTree = "<group>"; };
+		7BFE6ED0230BB00900A05DD0 /* zapsplat_multimedia_game_retro_musical_descend_fail_negative_21484.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zapsplat_multimedia_game_retro_musical_descend_fail_negative_21484.mp3; sourceTree = "<group>"; };
+		7BFE6ED3230BB2D200A05DD0 /* StandAndHitViewExtentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandAndHitViewExtentions.swift; sourceTree = "<group>"; };
+		7BFE6ED5230BBC7300A05DD0 /* zapsplat_vehicles_bicycle_bell_single_ring_ping_29516.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zapsplat_vehicles_bicycle_bell_single_ring_ping_29516.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BFAFDA623059C0400753134 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BFAFDBA23059C0600753134 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BFAFDC523059C0600753134 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BA3129223068A89002A5B79 /* alerts */ = {
+			isa = PBXGroup;
+			children = (
+				7BA3128E230688F5002A5B79 /* ShuffledAlertViewController.swift */,
+				7B2EB067230AAB1B00899267 /* WinAlertViewController.swift */,
+			);
+			path = alerts;
+			sourceTree = "<group>";
+		};
+		7BFAFDA023059C0400753134 = {
+			isa = PBXGroup;
+			children = (
+				7BFAFDAB23059C0400753134 /* Black Jack Saga */,
+				7BFAFDC023059C0600753134 /* Black Jack SagaTests */,
+				7BFAFDCB23059C0600753134 /* Black Jack SagaUITests */,
+				7BFAFDAA23059C0400753134 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BFAFDAA23059C0400753134 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BFAFDA923059C0400753134 /* Win Black Jack Saga.app */,
+				7BFAFDBD23059C0600753134 /* Win Black Jack SagaTests.xctest */,
+				7BFAFDC823059C0600753134 /* Win Black Jack SagaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BFAFDAB23059C0400753134 /* Black Jack Saga */ = {
+			isa = PBXGroup;
+			children = (
+				7BFE6ED2230BB2B100A05DD0 /* custom_extentions */,
+				7BFE6ECB230BAC1300A05DD0 /* sound */,
+				7BFAFDDD23059CCE00753134 /* controllers */,
+				7BFAFDDC23059CBC00753134 /* model */,
+				7BFAFDDA23059CA300753134 /* storyboards */,
+				7BFAFDAC23059C0400753134 /* AppDelegate.swift */,
+				7BFAFDB323059C0600753134 /* Assets.xcassets */,
+				7BFAFDB823059C0600753134 /* Info.plist */,
+			);
+			path = "Black Jack Saga";
+			sourceTree = "<group>";
+		};
+		7BFAFDC023059C0600753134 /* Black Jack SagaTests */ = {
+			isa = PBXGroup;
+			children = (
+				7BFAFDC123059C0600753134 /* Black_Jack_SagaTests.swift */,
+				7BFAFDC323059C0600753134 /* Info.plist */,
+			);
+			path = "Black Jack SagaTests";
+			sourceTree = "<group>";
+		};
+		7BFAFDCB23059C0600753134 /* Black Jack SagaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7BFAFDCC23059C0600753134 /* Black_Jack_SagaUITests.swift */,
+				7BFAFDCE23059C0600753134 /* Info.plist */,
+			);
+			path = "Black Jack SagaUITests";
+			sourceTree = "<group>";
+		};
+		7BFAFDDA23059CA300753134 /* storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				7BFAFDB023059C0400753134 /* Main.storyboard */,
+				7BFAFDB523059C0600753134 /* LaunchScreen.storyboard */,
+			);
+			path = storyboards;
+			sourceTree = "<group>";
+		};
+		7BFAFDDC23059CBC00753134 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				7BA312952306A260002A5B79 /* Card.swift */,
+				7B6A3DAB230D1F3D0041100B /* MusicPlay.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		7BFAFDDD23059CCE00753134 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7BA3129223068A89002A5B79 /* alerts */,
+				7BFAFDAE23059C0400753134 /* MainViewController.swift */,
+				7BA312902306896E002A5B79 /* StandAndHitViewController.swift */,
+				7BA3129323069860002A5B79 /* AboutViewController.swift */,
+				7B483F04235F08F7004FE062 /* CustomCode.swift */,
+				7B483F06235F0919004FE062 /* CustomExtension.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		7BFE6ECB230BAC1300A05DD0 /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				7B6A3DA7230D17B90041100B /* Blackjack Video Game Sounds-[AudioTrimmer.com].mp3 */,
+				7BFE6ED5230BBC7300A05DD0 /* zapsplat_vehicles_bicycle_bell_single_ring_ping_29516.mp3 */,
+				7BFE6ED0230BB00900A05DD0 /* zapsplat_multimedia_game_retro_musical_descend_fail_negative_21484.mp3 */,
+				7BFE6ECE230BAEE800A05DD0 /* little_robot_sound_factory_Jingle_Win_Synth_06.mp3 */,
+				7BFE6ECC230BAC5500A05DD0 /* playing-cards-170817-08.mp3 */,
+			);
+			path = sound;
+			sourceTree = "<group>";
+		};
+		7BFE6ED2230BB2B100A05DD0 /* custom_extentions */ = {
+			isa = PBXGroup;
+			children = (
+				7BFE6ED3230BB2D200A05DD0 /* StandAndHitViewExtentions.swift */,
+			);
+			path = custom_extentions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BFAFDA823059C0400753134 /* Win Black Jack Saga */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BFAFDD123059C0600753134 /* Build configuration list for PBXNativeTarget "Win Black Jack Saga" */;
+			buildPhases = (
+				7BFAFDA523059C0400753134 /* Sources */,
+				7BFAFDA623059C0400753134 /* Frameworks */,
+				7BFAFDA723059C0400753134 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Win Black Jack Saga";
+			productName = "Black Jack Saga";
+			productReference = 7BFAFDA923059C0400753134 /* Win Black Jack Saga.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7BFAFDBC23059C0600753134 /* Win Black Jack SagaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BFAFDD423059C0600753134 /* Build configuration list for PBXNativeTarget "Win Black Jack SagaTests" */;
+			buildPhases = (
+				7BFAFDB923059C0600753134 /* Sources */,
+				7BFAFDBA23059C0600753134 /* Frameworks */,
+				7BFAFDBB23059C0600753134 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BFAFDBF23059C0600753134 /* PBXTargetDependency */,
+			);
+			name = "Win Black Jack SagaTests";
+			productName = "Black Jack SagaTests";
+			productReference = 7BFAFDBD23059C0600753134 /* Win Black Jack SagaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7BFAFDC723059C0600753134 /* Win Black Jack SagaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BFAFDD723059C0600753134 /* Build configuration list for PBXNativeTarget "Win Black Jack SagaUITests" */;
+			buildPhases = (
+				7BFAFDC423059C0600753134 /* Sources */,
+				7BFAFDC523059C0600753134 /* Frameworks */,
+				7BFAFDC623059C0600753134 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BFAFDCA23059C0600753134 /* PBXTargetDependency */,
+			);
+			name = "Win Black Jack SagaUITests";
+			productName = "Black Jack SagaUITests";
+			productReference = 7BFAFDC823059C0600753134 /* Win Black Jack SagaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BFAFDA123059C0400753134 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Treinetic Macbook004";
+				TargetAttributes = {
+					7BFAFDA823059C0400753134 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					7BFAFDBC23059C0600753134 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 7BFAFDA823059C0400753134;
+					};
+					7BFAFDC723059C0600753134 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 7BFAFDA823059C0400753134;
+					};
+				};
+			};
+			buildConfigurationList = 7BFAFDA423059C0400753134 /* Build configuration list for PBXProject "Win Black Jack Saga" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BFAFDA023059C0400753134;
+			productRefGroup = 7BFAFDAA23059C0400753134 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BFAFDA823059C0400753134 /* Win Black Jack Saga */,
+				7BFAFDBC23059C0600753134 /* Win Black Jack SagaTests */,
+				7BFAFDC723059C0600753134 /* Win Black Jack SagaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BFAFDA723059C0400753134 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BFAFDB723059C0600753134 /* LaunchScreen.storyboard in Resources */,
+				7BFE6ECD230BAC5500A05DD0 /* playing-cards-170817-08.mp3 in Resources */,
+				7BFE6ED6230BBC7300A05DD0 /* zapsplat_vehicles_bicycle_bell_single_ring_ping_29516.mp3 in Resources */,
+				7BFE6ED1230BB00900A05DD0 /* zapsplat_multimedia_game_retro_musical_descend_fail_negative_21484.mp3 in Resources */,
+				7BFE6ECF230BAEE800A05DD0 /* little_robot_sound_factory_Jingle_Win_Synth_06.mp3 in Resources */,
+				7BFAFDB423059C0600753134 /* Assets.xcassets in Resources */,
+				7B6A3DA8230D17B90041100B /* Blackjack Video Game Sounds-[AudioTrimmer.com].mp3 in Resources */,
+				7BFAFDB223059C0400753134 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BFAFDBB23059C0600753134 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BFAFDC623059C0600753134 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BFAFDA523059C0400753134 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BFE6ED4230BB2D200A05DD0 /* StandAndHitViewExtentions.swift in Sources */,
+				7BA3128F230688F5002A5B79 /* ShuffledAlertViewController.swift in Sources */,
+				7BA312962306A260002A5B79 /* Card.swift in Sources */,
+				7B2EB068230AAB1B00899267 /* WinAlertViewController.swift in Sources */,
+				7B6A3DAC230D1F3D0041100B /* MusicPlay.swift in Sources */,
+				7BFAFDAF23059C0400753134 /* MainViewController.swift in Sources */,
+				7BFAFDAD23059C0400753134 /* AppDelegate.swift in Sources */,
+				7B483F05235F08F7004FE062 /* CustomCode.swift in Sources */,
+				7BA3129423069860002A5B79 /* AboutViewController.swift in Sources */,
+				7BA312912306896E002A5B79 /* StandAndHitViewController.swift in Sources */,
+				7B483F07235F0919004FE062 /* CustomExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BFAFDB923059C0600753134 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BFAFDC223059C0600753134 /* Black_Jack_SagaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BFAFDC423059C0600753134 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BFAFDCD23059C0600753134 /* Black_Jack_SagaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BFAFDBF23059C0600753134 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BFAFDA823059C0400753134 /* Win Black Jack Saga */;
+			targetProxy = 7BFAFDBE23059C0600753134 /* PBXContainerItemProxy */;
+		};
+		7BFAFDCA23059C0600753134 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BFAFDA823059C0400753134 /* Win Black Jack Saga */;
+			targetProxy = 7BFAFDC923059C0600753134 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7BFAFDB023059C0400753134 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BFAFDB123059C0400753134 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7BFAFDB523059C0600753134 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BFAFDB623059C0600753134 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BFAFDCF23059C0600753134 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7BFAFDD023059C0600753134 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BFAFDD223059C0600753134 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8LCLFP684Z;
+				INFOPLIST_FILE = "Black Jack Saga/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tg.ravens-004.Win-Black-Jack-Saga";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7BFAFDD323059C0600753134 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8LCLFP684Z;
+				INFOPLIST_FILE = "Black Jack Saga/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tg.ravens-004.Win-Black-Jack-Saga";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7BFAFDD523059C0600753134 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LMB3D7R692;
+				INFOPLIST_FILE = "Black Jack SagaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tg.ravens.004.Black-Jack-SagaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Win Black Jack Saga.app/Win Black Jack Saga";
+			};
+			name = Debug;
+		};
+		7BFAFDD623059C0600753134 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LMB3D7R692;
+				INFOPLIST_FILE = "Black Jack SagaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tg.ravens.004.Black-Jack-SagaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Win Black Jack Saga.app/Win Black Jack Saga";
+			};
+			name = Release;
+		};
+		7BFAFDD823059C0600753134 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LMB3D7R692;
+				INFOPLIST_FILE = "Black Jack SagaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tg.ravens.004.Black-Jack-SagaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Black Jack Saga";
+			};
+			name = Debug;
+		};
+		7BFAFDD923059C0600753134 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LMB3D7R692;
+				INFOPLIST_FILE = "Black Jack SagaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tg.ravens.004.Black-Jack-SagaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Black Jack Saga";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BFAFDA423059C0400753134 /* Build configuration list for PBXProject "Win Black Jack Saga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BFAFDCF23059C0600753134 /* Debug */,
+				7BFAFDD023059C0600753134 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BFAFDD123059C0600753134 /* Build configuration list for PBXNativeTarget "Win Black Jack Saga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BFAFDD223059C0600753134 /* Debug */,
+				7BFAFDD323059C0600753134 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BFAFDD423059C0600753134 /* Build configuration list for PBXNativeTarget "Win Black Jack SagaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BFAFDD523059C0600753134 /* Debug */,
+				7BFAFDD623059C0600753134 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BFAFDD723059C0600753134 /* Build configuration list for PBXNativeTarget "Win Black Jack SagaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BFAFDD823059C0600753134 /* Debug */,
+				7BFAFDD923059C0600753134 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BFAFDA123059C0400753134 /* Project object */;
+}
